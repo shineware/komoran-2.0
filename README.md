@@ -12,9 +12,9 @@ komoran 2.0을 실행하기 위해서는 아래와 같은 라이브러리가 필
 shineware-common-2.0.jar (<a href=http://shineware.tistory.com/attachment/cfile9.uf@2752823C542945A30BE87B.jar>download</a>)<br>
 shineware-ds-1.0.jar (<a href=http://shineware.tistory.com/attachment/cfile10.uf@22510A3C542945AB0DF2ED.jar>download</a>)<br>
 <br><br>
-자세한 사용법은 아래 링크에서 확인하실 수 있습니다.
+자세한 사용법은 아래 링크에서 확인하실 수 있습니다.<br>
 블로그 : http://shineware.tistory.com/entry/KOMORAN-ver-24
 <br><br>
-데모는 아래 링크에서 확인하실 수 있습니다.
+데모는 아래 링크에서 확인하실 수 있습니다.<br>
 사이트 : http://www.shineware.co.kr
 <br><br>
