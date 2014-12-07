@@ -668,7 +668,6 @@ public class Komoran {
 	 */
 	public void addUserDic(String userDic){
 		try {
-//			System.out.println("User dic loading : "+new File(userDic).getAbsolutePath());
 			BufferedReader br = new BufferedReader(new FileReader(userDic));
 			String line = null;
 			while((line = br.readLine()) != null){
@@ -707,7 +706,6 @@ public class Komoran {
 	 */
 	public void setUserDic(String userDic) {
 		try {
-//			System.out.println("User dic loading : "+new File(userDic).getAbsolutePath());
 			BufferedReader br = new BufferedReader(new FileReader(userDic));
 			String line = null;
 			while((line = br.readLine()) != null){
@@ -746,7 +744,6 @@ public class Komoran {
 	 */
 	public void setFWDic(String filename) {		
 		try {
-//			System.out.println("FWD loading="+new File(filename).getAbsolutePath());
 			CorpusParser corpusParser = new CorpusParser();
 			BufferedReader br = new BufferedReader(new FileReader(filename));
 			String line;

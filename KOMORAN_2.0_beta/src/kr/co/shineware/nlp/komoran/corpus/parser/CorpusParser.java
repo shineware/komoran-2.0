@@ -20,17 +20,12 @@ package kr.co.shineware.nlp.komoran.corpus.parser;
 import java.util.ArrayList;
 import java.util.List;
 
-import kr.co.shineware.nlp.komoran.corpus.builder.CorpusBuilder;
 import kr.co.shineware.nlp.komoran.corpus.parser.model.ProblemAnswerPair;
 import kr.co.shineware.nlp.komoran.exception.FileFormatException;
 import kr.co.shineware.util.common.model.Pair;
 
 
 /**
- * {@link CorpusBuilder}에 사용되는 파서로써 아래와 같은 형태로 이루어져 있는 경우에 사용 가능함<br>
- * 감기는 감기/NNG 는/JKG <br>
- * 자세한 내용은 아래 링크 참조
- * <a href="http://www.shineware.co.kr"> www.shineware.co.kr > FAQ > CorpusBuiler </a>
  * @author Junsoo Shin <jsshin@shineware.co.kr>
  * @version 2.1
  * @since 2.1

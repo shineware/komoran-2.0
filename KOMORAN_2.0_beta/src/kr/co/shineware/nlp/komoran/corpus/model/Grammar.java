@@ -31,8 +31,8 @@ import kr.co.shineware.util.common.file.FileUtil;
 import kr.co.shineware.util.common.string.StringUtil;
 
 /**
- * This is model class of grammar. Grammar class implements {@FileAccessible}.
- * Therefore, this is can use like DB instead of save, load.
+ * This is model class of grammar. Grammar class implements by {@FileAccessible}.
+ * Therefore, this class can use like DB instead of save, load.
  * @author Junsoo Shin 
  * @see {@link FileAccessible}
  * @version 2.1
@@ -163,8 +163,6 @@ public class Grammar implements FileAccessible{
 					continue;
 				}
 				int separatorIdx = nextPosTfPair.lastIndexOf(':');
-//				String nextPos = nextPosTfPair.split(":")[0];
-//				Integer tf = Integer.parseInt(nextPosTfPair.split(":")[1]);
 				String nextPos;
 				if(separatorIdx == 0){
 					nextPos = "";
