@@ -1,6 +1,28 @@
 komoran-2.0
 ===========
 
+#About
+신준수님이 개발하신 komoran 프로젝트를 maven 프로젝트로 생성했습니다
+
+#Requirements
+이 프로젝트는 신준수님의 다른 두 패키지를 필요로 합니다. 
+소스가 공개되지 않아 다운받은 jar를 로컬 리파지토리에 설치하는 절차가 필요합니다 
+groupId, artifactId는 그냥 제가 임의로 설정했어요 -_-;
+
+    #install shineware-common
+    mvn install:install-file -Dfile=lib/shineware-common-2.0.jar -DgroupId=kr.co.shineware \
+        -DartifactId=common -Dversion=2.0 -Dpackaging=jar
+    #install shineware-ds
+    mvn install:install-file -Dfile=lib/shineware-ds-1.0.jar -DgroupId=kr.co.shineware \
+            -DartifactId=ds -Dversion=1.0 -Dpackaging=jar
+
+#How to build
+    mvn clean package
+
+#Original Readme.MD
+komoran-2.0
+===========
+
 Korean morphological analyzer by shineware
 <br><br>
 현재 komoran 2.0과 관련된 문서들을 정리 중에 있습니다. 조만간 재정비하겠습니다. <br>
