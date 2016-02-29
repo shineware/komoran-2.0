@@ -5,16 +5,16 @@ komoran-2.0
 신준수님이 개발하신 komoran 프로젝트를 maven 프로젝트로 생성했습니다
 
 #Requirements
-이 프로젝트는 신준수님의 다른 두 패키지를 필요로 합니다. 
-소스가 공개되지 않아 다운받은 jar를 로컬 리파지토리에 설치하는 절차가 필요합니다 
-groupId, artifactId는 그냥 제가 임의로 설정했어요 -_-;
+이 프로젝트는 신준수님의 다른 두 패키지를 필요로 합니다. Maven Central에 등록되기 전엔 아래 절차와 같이 직접 로컬리포지토리에 인스톨하셔야 합니다
 
     #install shineware-common
-    mvn install:install-file -Dfile=lib/shineware-common-2.0.jar -DgroupId=kr.co.shineware \
-        -DartifactId=common -Dversion=2.0 -Dpackaging=jar
+    git clone https://github.com/shineware/common_library.git
+    cd common_library && mvn package install
+    
     #install shineware-ds
-    mvn install:install-file -Dfile=lib/shineware-ds-1.0.jar -DgroupId=kr.co.shineware \
-            -DartifactId=ds -Dversion=1.0 -Dpackaging=jar
+    git clone https://github.com/shineware/DS_Library.git
+    cd DS_Library && mvn package install
+   
 
 #How to build
     mvn clean package
