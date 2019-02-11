@@ -1,10 +1,10 @@
 package kr.co.shineware.nlp.komoran.test;
 
-import java.util.List;
-
 import kr.co.shineware.nlp.komoran.core.analyzer.Komoran;
 import kr.co.shineware.nlp.komoran.modeler.builder.ModelBuilder;
 import kr.co.shineware.util.common.model.Pair;
+
+import java.util.List;
 
 public class KomoranExample {
 

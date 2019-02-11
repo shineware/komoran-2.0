@@ -1,0 +1,24 @@
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+
+}
+
+dependencies {
+    compile 'com.github.shineware:commons:1.0.1'
+    compile 'com.github.shineware:DS_Library:1.0'
+    testCompile 'junit:junit:4.12'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.2'
+}
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
